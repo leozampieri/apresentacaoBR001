@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+.main {
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    letter-spacing: -1px;
+    overflow: hidden;
+    
+}
+.tela {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vw * 9 / 16);
+    background-color: #FFFFFF;  
+}
+.menu {
+    padding-right: 3%;
+    margin-left: -5%;
+    width: 2.4%;
+    
+    
+}
+.conteudo {
+    
+    position: relative;
+    text-align: right;
+    width: 85%;
+    height: 100%;
+    border-bottom: 1px solid #717175;
+    color: #9A999E;   
+}
+
+p {
+    padding-top: 19%;
+    font-weight: 700;
+    font-size: 1.6vw;
+    color: #5B5B5F;  
+}
+
+h1 {
+    margin-top: -7%;   
+    font-weight: 500;
+    font-size: 16vw;
+    letter-spacing: -1.2vw;    
+}
+
+h2 {
+       
+    text-align: left;
+    font-weight: 400;
+    font-size: 5vw;
+    letter-spacing: -0.4vw;
+    margin-left: 20%;
+}
+
+
+.img-borda {
+    position: absolute;
+    transform: translateX(-100%);
+    top: 92%;
+    width: 9%;
+}
+
+/* TELA 03 */
+
+.filmepesquisa {
+    width: 80%;
+    margin-left: auto;
+    margin-top: 09%;
+}
+
+/* TELA 04 */
+
+h2 { 
+    text-align: left;
+    font-weight: 400;
+    font-size: 5vw;
+    letter-spacing: -0.4vw;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+/* TELA 05 */
+
+.tela05 {
+    margin-top: 5%;
+}
+.tela05 > img {
+    width: 96%;
+    object-fit: contain;
+}
+
+/* TELA 06 */
+
+.tela06 {
+    margin-top: 5%;
+}
+.tela06 > img {
+    width: 96%;
+    object-fit: contain;
+}
+
+/* TELA 07 */
+
+.titulo-tela07 {
+    text-justify: right;
+    margin-top: -4%;   
+    font-weight: 500;
+    font-size: 12vw;
+    letter-spacing: -1.1vw;    
+}
+.titulo-tela07--2 {
+    text-justify: right;
+    margin-top: -13%;  
+    margin-right: 13%; 
+    font-weight: 500;
+    font-size: 12vw;
+    letter-spacing: -1.0vw;    
+}
+
+/* TELA 09 */
+
+.texto-tela09 { 
+    
+    font-size: 4.2vw;
+    letter-spacing: -0.3vw;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+
+/* TELA 10 */
+
+.tela10 {
+    margin-top: 7%;
+}
+.tela10 > img {
+    width: 96%;
+    object-fit: contain;
+}
+
+/* TELA 11 */
+
+.tela11 {
+    margin-top: 7%;
+}
+.tela11 > img {
+    width: 96%;
+    object-fit: contain;
+}
+
+/* TELA 12 */
+
+.titulo-tela12 {
+    text-justify: right;
+    margin-top: -4%;   
+    font-weight: 500;
+    margin-right: 18%;
+    font-size: 12vw;
+    letter-spacing: -0.9vw;    
+}
+.titulo-tela12--2 {
+    text-justify: right;
+    margin-top: -13%;  
+     
+    font-weight: 500;
+    font-size: 12vw;
+    letter-spacing: -1.0vw;    
+}
+
+/* TELA 14 */
+
+.texto-tela14 { 
+    
+    font-size: 4.5vw;
+    letter-spacing: -0.3vw;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+
+/* TELA 15 */
+
+.tela15 {
+    margin-top: 7%;
+}
+.tela15 > img {
+    width: 96%;
+    object-fit: contain;
+}
+
+/* TELA 16 */
+
+.tela16 {
+    margin-top: 7%;
+}
+.tela16 > img {
+    width: 96%;
+    object-fit: contain;
+}
+
+/* TELA 17 */
+
+.tela17 {
+    margin-top: 7%;
+}
+.tela17 > img {
+    width: 96%;
+    object-fit: contain;
+}
+
+/* TELA 18 */
+
+.tela18 {
+    margin-top: 7%;
+}
+.tela18 > img {
+    width: 96%;
+    object-fit: contain;
+}
+
+/* TELA 19 */
+
+.tela19 {
+    margin-top: 7%;
+}
+.tela19 > img {
+    width: 96%;
+    object-fit: contain;
+}
+
+/* TELA 20 */
+
+.titulo-tela20 {
+    text-justify: right;
+    margin-top: -3%;   
+    font-weight: 500;
+    
+    font-size: 12vw;
+    letter-spacing: -0.9vw;    
+}
+.titulo-tela20--2 {
+    text-justify: right;
+    margin-top: -13%;  
+     
+    font-weight: 500;
+    font-size: 12vw;
+    letter-spacing: -1.0vw;    
+}
+
+/* TELA 22 */
+
+.texto-tela22 { 
+    
+    font-size: 4.8vw;
+    letter-spacing: -0.3vw;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+
+/* TELA 23 */
+
+.conteudo-dividido {
+
+    position: relative;
+    text-align: right;
+    width: 85%;
+    height: 100%;
+    border-bottom: 1px solid #717175;
+    color: #9A999E;   
+}
+
+.filmes-divididos {
+    display: flex;
+    margin-top: 18%;
+}
+
+.filme01 {
+    width: 49%;
+    padding-right: 3%;
+}
+.filme02 {
+    width: 49%;
+}
+
+/* TELA 26 */
+
+.audio-container {
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+audio {
+    
+    width: 130px;
+    height: 20px;  
+    object-fit: contain;
+}
+
+@media (min-width: 800px) {
+    audio {
+    
+        width: 250px;
+        height: 80px;  
+        object-fit: contain;
+    }
+}
+.audio {
+    
+    padding-left: 5%;
+}
+h3 {
+    font-weight: 300;
+    font-size: 1.1vw;
+    letter-spacing: -0.04vw;
+    text-align: center;
+}
+
+/* TELA 28 */
+
+.titulo-tela28 {
+    text-justify: right;
+    margin-top: -3%;   
+    font-weight: 500;
+    
+    font-size: 11vw;
+    letter-spacing: -0.9vw;    
+}
+.titulo-tela28--2 {
+    text-justify: right;
+    margin-top: -13%;  
+     
+    font-weight: 500;
+    font-size: 11vw;
+    letter-spacing: -1.0vw;    
+}
+
+/* TELA 30 */
+
+.texto-tela30 { 
+    
+    font-size: 4.5vw;
+    letter-spacing: -0.3vw;
+    margin-left: 25%;
+    margin-top: 13%;
+}
+
+/* TELA 28 */
+
+.titulo-tela34 {
+    text-justify: right;
+    margin-top: -3%;   
+    font-weight: 500;
+    
+    font-size: 10vw;
+    letter-spacing: -0.9vw;    
+}
+.titulo-tela34--2 {
+    text-justify: right;
+    margin-top: -13%;  
+     
+    font-weight: 500;
+    font-size: 11vw;
+    letter-spacing: -1.0vw;    
+}
+
+/* TELA 35 */
+
+.filmeestrategia {
+    width: 47%;
+    margin-left: auto;
+    margin-top: 8%;
+    margin-right: 5%;
+}
+
+
+
+/* TELA 36 */
+
+.texto-tela36 { 
+    
+    font-size: 4.5vw;
+    letter-spacing: -0.3vw;
+    margin-left: 25%;
+    margin-top: 22%;
+}
+
+/* TELA 37 */
+
+.texto-tela37 { 
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: -0.4vw;
+    margin-left: 20%;
+    font-size: 2.5vw;
+    letter-spacing: -0.1vw;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: -2%;
+}
+
+.texto2-tela37 {
+    text-align: right;
+    font-weight: 400;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 1.2vw;
+}
+
+/* TELA 41 */
+
+.titulo-tela41 {
+    text-justify: left;
+    margin-top: -3%;   
+    font-weight: 500;
+    padding-right: 37%;
+    font-size: 9vw;
+    letter-spacing: -0.9vw;    
+}
+.titulo-tela41--2 {
+    text-justify: right;
+    margin-top: -11%;  
+    font-weight: 500;
+    padding-right: 15%;
+    font-size: 9vw;
+    letter-spacing: -1.0vw;    
+}
+.titulo-tela41--3 {
+    text-justify: right;
+    margin-top: -11%;  
+    font-weight: 500;
+    font-size: 9vw;
+    letter-spacing: -1.0vw;    
+}
+
+/* TELA 42 */
+
+.conteudo-dividido-42 {
+
+    position: relative;
+    text-align: right;
+    width: 85%;
+    height: 90%;
+    border-bottom: 1px solid #717175;
+    color: #9A999E;   
+}
+
+.filmes-divididos-42 {
+    display: flex;
+    margin-top: 3%;
+}
+
+.filme01-42 {
+    width: 49%;
+    padding-right: 3%;
+    padding-left: 5%;
+}
+.filme02-42 {
+    width: 41%;
+}
+
+/* TELA 41 */
+
+.titulo-tela47-oquefazemos {
+    margin-top: -5%;
+    padding-bottom: 2%;
+}
+
+.titulo-tela47 {
+    text-justify: left;
+    margin-top: -3%;   
+    font-weight: 500;
+    padding-right: 6%;
+    font-size: 9vw;
+    letter-spacing: -0.9vw;    
+}
+.titulo-tela47--2 {
+    text-justify: right;
+    margin-top: -11%;  
+    font-weight: 500;
+    
+    font-size: 9vw;
+    letter-spacing: -1.0vw;    
+}
+
+
+/* TELA ASSINATURA */
+
+.assinatura {
+    
+    width: 100vw;
+    height: calc(100vw * 9 / 16);
+    background-color: #FFFFFF;
+    position: relative;  
+}
+.logo-assinatura {
+    position: absolute;
+    z-index: 10;
+    width: 25%;
+    padding-left: 39%;
+    padding-top: 23%;
+}
+
+.img-assinatura {
+    width: 105%;
+    padding-top: 5%;
+    transform: translateX(-3%);
+}
+
